@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(230, 225, 225);
+}
+ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #38ce59;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-color: orange;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form {
+    background-color: orange;
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+.in {
+    margin-bottom: 10px;
+}
+textarea {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
